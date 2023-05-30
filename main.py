@@ -54,7 +54,7 @@ def post_values(data):
 
 
 while True:
-    date_time = datetime.now(pytz.timezone('GMT')).strftime(f"%Y-%m-%d-%H:%M")
+    date_time = datetime.now(pytz.timezone('GMT')).strftime("%Y-%m-%d-%H:%M")
     today_date = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     if check_time(date_time):
         data = get_values()
